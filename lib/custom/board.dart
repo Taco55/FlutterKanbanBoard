@@ -284,7 +284,7 @@ class _BoardState extends ConsumerState<Board> {
           }
         },
         child: Scaffold(
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.transparent,
           body: Container(
             decoration: widget.boardDecoration ??
                 BoxDecoration(color: widget.backgroundColor),
@@ -405,7 +405,8 @@ class _BoardState extends ConsumerState<Board> {
                                                                             300,
                                                                         color: Colors
                                                                             .white,
-                                                                        margin: const EdgeInsets.only(
+                                                                        margin: const EdgeInsets
+                                                                            .only(
                                                                             top:
                                                                                 20,
                                                                             right:
